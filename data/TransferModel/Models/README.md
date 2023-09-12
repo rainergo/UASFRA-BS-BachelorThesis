@@ -1,0 +1,1 @@
+###### Note: This folder holds the trained TRANSFER models (.joblib-files) if MAIN.ipynb is run.
