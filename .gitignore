@@ -13,3 +13,4 @@
 /data/TransferModel/Training/zv_1_3_feat_engineered_part2.csv
 /data/TransferModel/Training/zv_1_3_preprocessed.csv
 /data/TransferModel/Training/zv_3.csv
+.gitignore
