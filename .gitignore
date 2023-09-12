@@ -1,0 +1,15 @@
+*.joblib
+/data/OriginalModel/Monthly/prediction_data_part1.csv
+/data/OriginalModel/Monthly/prediction_data_part2.csv
+/data/OriginalModel/Monthly/prediction_data_part3.csv
+/data/OriginalModel/Monthly/prediction_data_part4.csv
+/data/OriginalModel/Monthly/prediction_data_part5.csv
+/data/OriginalModel/Monthly/quantile_portfolio.csv
+/data/OriginalModel/Monthly/result_dataframe.csv
+/data/OriginalModel/Training/orig_learn_data_preprocessed_copy.csv
+/data/TransferModel/Training/zv_1.csv
+/data/TransferModel/Training/zv_1_3_feat_engineered_copy.csv
+/data/TransferModel/Training/zv_1_3_feat_engineered_part1.csv
+/data/TransferModel/Training/zv_1_3_feat_engineered_part2.csv
+/data/TransferModel/Training/zv_1_3_preprocessed.csv
+/data/TransferModel/Training/zv_3.csv
