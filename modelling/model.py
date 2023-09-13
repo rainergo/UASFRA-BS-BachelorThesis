@@ -278,8 +278,8 @@ class TransferModel(Model):
         if num_rows_before_merge != num_rows_after_merge:
             logging.warning(
                 f" Please be aware that the number of dataframe rows was reduced from {num_rows_before_merge!s}"
-                f" rows to {num_rows_after_merge!s} rows as the targets did not contain all "
-                f" {self.key_name_in_dataframes}'s that were in the dataframe!")
+                f" rows to {num_rows_after_merge!s} rows as the targets did not contain all"
+                f" '{self.key_name_in_dataframes}'s that were in the dataframe!")
 
     def _check_set_transfer_model_inputs_has_run(self):
         if not self._set_transfer_model_inputs_has_run:

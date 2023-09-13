@@ -8,7 +8,6 @@ from modelling.data_access import InsideAccess
 from modelling.functions import check_parameter_is_of_type, ExplanationInput
 
 
-
 class Explanation(InsideAccess):
 
     def __init__(self, explanation_input: ExplanationInput):
@@ -193,10 +192,10 @@ class Shap(Explanation):
                                                                    second_key_value=second_key_value)
         key_value_index = self._get_index_of_key_value(key_value=key_value, second_key_value=second_key_value)
         shap.plots.force(base_value=np.around(self.global_base_value, decimals=2),
-                         shap_values=np.around(local_shap_values.to_numpy(),decimals=2),
+                         shap_values=np.around(local_shap_values.to_numpy(), decimals=2),
                          feature_names=self.shap_explanation_data_all.columns.to_list(),
                          features=np.around(self.shap_explanation_data_all[
-                             self.shap_explanation_data_all.index == key_value_index], decimals=2),
+                                                self.shap_explanation_data_all.index == key_value_index], decimals=2),
                          matplotlib=True, show=False, contribution_threshold=contribution_threshold)
         if save_plot_as_pdf:
             plot_name = 'local_force_plot_' + self.model_estimator.__class__.__name__ + key_value + '.pdf'

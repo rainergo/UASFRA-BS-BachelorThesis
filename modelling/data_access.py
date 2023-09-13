@@ -9,7 +9,7 @@ class DataAccessDescriptor:
         file_path = obj.source_file_path.lower()
         try:
             if file_path.endswith('.zip') or file_path.endswith('.csv'):
-                return pd.read_csv(obj.source_file_path)
+                return pd.read_csv(obj.source_file_path, index_col=False)
             elif file_path.endswith('.joblib'):
                 return jl.load(obj.source_file_path)
             else:
@@ -21,7 +21,7 @@ class DataAccessDescriptor:
         file_path = obj.target_file_path.lower()
         try:
             if file_path.endswith('.zip') or file_path.endswith('.csv'):
-                value.to_csv(obj.target_file_path)
+                value.to_csv(obj.target_file_path, index=None)
             elif file_path.endswith('.joblib'):
                 jl.dump(value, obj.target_file_path)
             else:
@@ -29,7 +29,6 @@ class DataAccessDescriptor:
             print(f'The file was successfully saved as/to: {obj.target_file_path} !')
         except OSError:
             print(f'File could not be written to file path "{obj.target_file_path}" !')
-
 
 
 class InsideAccess(ML):
