@@ -1,12 +1,12 @@
 ## <ins>Bachelor-Thesis (2021) - B.Sc. Computer Science</ins>
-### Title: *[An approach to Out-of-Model feature explanations in the application to credit fraud detection](https://drive.google.com/file/d/1zKTNjlNdYV2ZyAx1voC4LXjQdQtatvsl/view?usp=drive_link)*
+### Title: *[An approach to Out-of-Model feature explanations in the application to credit fraud detection](https://github.com/rainergo/Fileserver/blob/master/bachelor_thesis.pdf?raw=true)*
 #### Author: *Rainer Gogel*
 #### Index Terms: *Machine Learning, Transfer Learning, Feature Contributions, Shapley Values/SHAP*
 
 ---
 
 ### <ins>Background</ins>
-This code accompanies my [Bachelor-Thesis](https://drive.google.com/file/d/1zKTNjlNdYV2ZyAx1voC4LXjQdQtatvsl/view?usp=drive_link) (2021) in Computer Science at the 
+This code accompanies my [Bachelor-Thesis](https://github.com/rainergo/Fileserver/blob/master/bachelor_thesis.pdf?raw=true) (2021) in Computer Science at the 
 [Frankfurt University of Applied Sciences](https://www.frankfurt-university.de/en/about-us/faculty-2-computer-science-and-engineering/welcome-to-faculty-2/). 
 The Bachelor-Thesis was written in cooperation with the Big Data & Advanced Analytics department 
 of [Commerzbank AG](https://www.commerzbank.com/de/hauptnavigation/home/home.html) as part of an effort to port
@@ -66,7 +66,7 @@ All functionalities of the Python code can be run in the condensed Jupyter Noteb
 
 The **"MAIN.ipynb"** Notebook makes use of Python scripts in the folder: /modelling/*.py
 
-Please find further information to this in the code and in the [Bachelor-Thesis](https://drive.google.com/file/d/1zKTNjlNdYV2ZyAx1voC4LXjQdQtatvsl/view?usp=drive_link).    
+Please find further information to this in the code and in the [Bachelor-Thesis](https://github.com/rainergo/Fileserver/blob/master/bachelor_thesis.pdf?raw=true).    
 
 ---
 
@@ -94,7 +94,7 @@ The data provided comprises:
             - /data/TransferModel/Training/zv_1_3_feat_engineered.zip
         The (reduced) training data has 76,755 data points with 2 key/client-id columns and 293 feature columns.
 
-Please find further information to this in the code and in the [Bachelor-Thesis](https://drive.google.com/file/d/1zKTNjlNdYV2ZyAx1voC4LXjQdQtatvsl/view?usp=drive_link).    
+Please find further information to this in the code and in the [Bachelor-Thesis](https://github.com/rainergo/Fileserver/blob/master/bachelor_thesis.pdf?raw=true).    
 
 
 ---
